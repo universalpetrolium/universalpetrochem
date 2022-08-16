@@ -23,16 +23,16 @@ Table of contents
 12. portfolio
 
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font & reset css
---------------------------------------------- 
+---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
-/* 
+/*
 ---------------------------------------------
 reset
---------------------------------------------- 
+---------------------------------------------
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -108,10 +108,10 @@ p {
   color: #2a2a2a;
 }
 
-/* 
+/*
 ---------------------------------------------
 global styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -120,12 +120,12 @@ body {
 }
 
 ::selection {
-  background: #005295;
+  background: #f6831f;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #005295;
+  background: #f6831f;
   color: #fff;
 }
 
@@ -147,7 +147,7 @@ body {
 
 .main-white-button a {
   font-size: 13px;
-  color: #005295;
+  color: #f6831f;
   background-color: #fff;
   padding: 12px 25px;
   display: inline-block;
@@ -174,7 +174,7 @@ body {
 .section-heading h6 {
   position: relative;
   font-size: 15px;
-  color: #005295;
+  color: #f6831f;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -188,23 +188,23 @@ body {
   position: absolute;
   left: 0;
   top: 8px;
-  background-color: #005295;
+  background-color: #f6831f;
 }
 
 .section-heading h2 {
   line-height: 40px;
   margin-top: 20px;
-  margin-bottom: 25px; 
+  margin-bottom: 25px;
   font-size: 30px;
   font-weight: 900;
   color: #2a2a2a;
 }
 
 
-/* 
+/*
 ---------------------------------------------
 header
---------------------------------------------- 
+---------------------------------------------
 */
 
 .background-header {
@@ -223,11 +223,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #005295!important;
+  color: #f6831f!important;
 }
 
 .background-header .nav li a.active {
-  color: #005295!important;
+  color: #f6831f!important;
 }
 
 .header-area {
@@ -315,12 +315,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #005295!important;
+  color: #f6831f!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #005295!important;
+  color: #f6831f!important;
   opacity: 1;
 }
 
@@ -382,7 +382,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #005295!important;
+  color: #f6831f!important;
   padding-left: 25px;
 }
 
@@ -522,7 +522,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #005295;
+  color: #f6831f;
 }
 
 @media (max-width: 1200px) {
@@ -541,7 +541,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #005295!important;
+    color: #f6831f!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -599,7 +599,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #005295!important;
+    color: #f6831f!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -641,10 +641,10 @@ header
 }
 
 
-/* 
+/*
 ---------------------------------------------
 banner
---------------------------------------------- 
+---------------------------------------------
 */
 
 #top {
@@ -760,7 +760,7 @@ banner
   right:30px;
   width: 50px;
   height: 50px;
-  background-color: #005295;
+  background-color: #f6831f;
   border:0 none;
   line-height: 44px;
   border-radius: 50%;
@@ -789,7 +789,7 @@ banner
   left:30px;
   width: 50px;
   height: 50px;
-  background-color: #005295;
+  background-color: #f6831f;
   border:0 none;
   line-height: 44px;
   border-radius: 50%;
@@ -884,7 +884,7 @@ about
   display: inline-block;
   line-height: 70px;
   text-align: center;
-  background-color: #005295;
+  background-color: #f6831f;
   color: #fff;
   border-radius: 50%;
   transform: translate(-35px, -35px);
@@ -914,8 +914,8 @@ menu
 
 .card {
   margin: 0 auto;
-  max-width: 100%;
-  min-height: 400px;
+  width: 100%;
+  height: 380px;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -924,6 +924,7 @@ menu
 
 .card1 {
   background-image: url(../images/menu-item-01.jpg);
+
 }
 .card2 {
   background-image: url(../images/menu-item-02.jpg);
@@ -941,8 +942,8 @@ menu
 .info {
   position: relative;
   width: 100%;
-  background-color: #005295;
-  border: 1px solid #005295;
+  background-color: #f6831f;
+  border: 1px solid #f6831f;
   transform: translateY(100%)
   translateY(120px)
   translateZ(0);
@@ -971,7 +972,7 @@ menu
   position: absolute;
   width: 70px;
   height: 70px;
-  background-color: #005295;
+  background-color: #f6831f;
   font-size: 20px;
   font-weight: 700;
   color: #fff;
@@ -1001,7 +1002,7 @@ menu
 #menu .owl-dots {
   display: none;
 }
-    
+
 #menu .owl-nav .owl-prev{
   margin-right: 10px;
   outline: none;
@@ -1015,7 +1016,7 @@ menu
 #menu .owl-nav .owl-prev:before {
   display: inline-block;
   font-family: 'FontAwesome';
-  color: #005295;
+  color: #f6831f;
   font-size: 25px;
   font-weight: 700;
   content: '\f104';
@@ -1047,7 +1048,7 @@ menu
 #menu .owl-nav .owl-next:before {
   display: inline-block;
   font-family: 'FontAwesome';
-  color: #005295;
+  color: #f6831f;
   font-size: 25px;
   font-weight: 700;
   content: '\f105';
@@ -1085,11 +1086,11 @@ chefs
 }
 
 #chefs .chef-item:hover {
-  border-color: #005295;
+  border-color: #f6831f;
 }
 
 #chefs .chef-item:hover .down-content h4 {
-  color: #005295;
+  color: #f6831f;
 }
 
 #chefs .chef-item .thumb {
@@ -1146,7 +1147,7 @@ chefs
 }
 
 #chefs .chef-item .thumb ul.social-icons li a:hover {
-  background-color: #005295;
+  background-color: #f6831f;
 }
 
 #chefs .chef-item:hover .overlay {
@@ -1176,10 +1177,10 @@ chefs
 }
 
 
-/* 
+/*
 ---------------------------------------------
 reservation
---------------------------------------------- 
+---------------------------------------------
 */
 
 #reservation .section-heading {
@@ -1229,7 +1230,7 @@ reservation
   text-align: center;
   line-height: 70px;
   color: #fff;
-  background-color: #005295;
+  background-color: #f6831f;
   border-radius: 50%;
   font-size: 24px;
   margin-top: -35px;
@@ -1255,7 +1256,7 @@ reservation
 
 #reservation .phone span a:hover,
 #reservation .message span a:hover {
-  color: #005295;
+  color: #f6831f;
 }
 
 #contact {
@@ -1301,14 +1302,14 @@ reservation
 .contact-form input:focus,
 .contact-form textarea:focus,
 .contact-form select:focus {
-  border-color: #005295;
+  border-color: #f6831f;
 }
 
 .contact-form button {
   margin-top: -10px;
   font-size: 13px;
   color: #fff;
-  background-color: #005295;
+  background-color: #f6831f;
   padding: 12px 25px;
   width: 100%;
   box-shadow: none;
@@ -1400,7 +1401,7 @@ offers
   margin: 0 auto 15px auto;
 }
 #offers #tabs ul .ui-tabs-active a {
-  color: #005295;
+  color: #f6831f;
   position: relative;
 }
 #offers #tabs ul .ui-tabs-active span {
@@ -1450,7 +1451,7 @@ offers
   right: 0;
   width: 70px;
   height: 70px;
-  background-color: #005295;
+  background-color: #f6831f;
   display: inline-block;
   text-align: center;
   line-height: 70px;
@@ -1461,16 +1462,16 @@ offers
 }
 
 
-/* 
+/*
 ---------------------------------------------
 footer
---------------------------------------------- 
+---------------------------------------------
 */
 
 footer {
   margin-top: 60px;
   padding: 50px 0px;
-  background-color: #005295;
+  background-color: #f6831f;
 }
 
 footer .left-text-content p {
@@ -1515,7 +1516,7 @@ footer .right-text-content ul li a {
   font-size: 20px;
   background-color: #fff;
   border-radius: 50%;
-  color: #005295;
+  color: #f6831f;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
@@ -1526,10 +1527,10 @@ footer .right-text-content ul li a:hover {
   color: #2a2a2a;
 }
 
-/* 
+/*
 ---------------------------------------------
 responsive
---------------------------------------------- 
+---------------------------------------------
 */
 
 @media (max-width: 992px) {
@@ -1592,7 +1593,7 @@ responsive
 
 #preloader {
   overflow: hidden;
-  background-color: #005295;
+  background-color: #f6831f;
   left: 0;
   right: 0;
   top: 0;
